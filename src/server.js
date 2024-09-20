@@ -57,11 +57,11 @@ bot.onText(/\/start/, async (msg) => {
   const chatId = msg.chat.id;
 
   try {
-    const user = await User.findOne({ chatId });
+    let user = await User.findOne({ chatId });
     if (user) {
       bot.sendMessage(chatId, "You are already subscribed");
     } else {
-      user = new User(chatId);
+      user = new User({ chatId });
       await user.save();
 
       bot.sendMessage(
@@ -82,7 +82,7 @@ bot.onText(/\/stop/, async (msg) => {
   const chatId = msg.chat.id;
 
   try {
-    const user = await User.findOne({ chatId });
+    let user = await User.findOne({ chatId });
     if (user) await user.deleteOne();
     bot.sendMessage(
       chatId,
