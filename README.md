@@ -4,6 +4,8 @@
 
 This project is built using **Node.js** and **MongoDB**, making it highly efficient and scalable to keep Starknet developers and professionals informed.
 
+[Demo Video](https://drive.google.com/file/d/1FOmAj_8_kQMNliKlhWW2wu3c-4s2QzFD/view?usp=sharing)
+
 ## Features
 
 - **Real-time Web Scraping**: Automatically tracks and scrapes content from relevant social media accounts, websites, and other sources in the Starknet ecosystem.
