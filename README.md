@@ -79,7 +79,6 @@ Once the bot is running, it will start scraping for updates and sending notifica
 The MongoDB database holds data for:
 
 - **Users**: Stores Telegram user info and their subscription preferences.
-- **Updates**: Holds the scraped updates, including URLs, tweets, and metadata.
 
 ## Contribution
 
