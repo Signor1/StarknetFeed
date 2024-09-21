@@ -1,6 +1,6 @@
 # StarknetFeed
 
-**StarknetFeed** is a bot designed to track updates and news from the Starknet ecosystem, which can often be scattered across various social media platforms, handles, and websites. It automates the process by scraping the web and tracking relevant tweets, delivering real-time updates directly to the bot subscribers' Telegram inbox.
+**StarknetFeed** is a bot designed to track updates and news from the Starknet ecosystem, this cuts across various social media platforms, handles, and websites. It automates the process by scraping the web and tracking relevant tweets, delivering real-time updates directly to the bot subscribers' Telegram inbox.
 
 This project is built using **Node.js** and **MongoDB**, making it highly efficient and scalable to keep Starknet developers and professionals informed.
 
