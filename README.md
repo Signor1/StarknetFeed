@@ -10,7 +10,7 @@ This project is built using **Node.js** and **MongoDB**, making it highly effici
 
 - **Real-time Web Scraping**: Automatically tracks and scrapes content from relevant social media accounts, websites, and other sources in the Starknet ecosystem.
 - **Telegram Bot Integration**: Sends updates directly to the subscriber’s Telegram inbox for easy access.
-- **MongoDB Integration**: Stores scraped data, including links, tweets, and articles for further processing and analytics.
+- **MongoDB Integration**: Stores subscribers chatId which is used for sending the updates to the approperiate accounts
 - **Customizable Feeds**: Allows users to subscribe to specific types of updates based on their preferences.
 
 ## Technologies Used
@@ -26,8 +26,8 @@ Before you begin, ensure you have met the following requirements:
 
 - **Node.js** (version 14.x or later)
 - **MongoDB** (self-hosted or via a cloud provider like MongoDB Atlas)
-- A **Telegram bot** token from [BotFather](https://core.telegram.org/bots#botfather)
-- **Twitter API** or other scraping sources you need
+- A **Telegram bot** token from [BotFather](https://t.me/botfather)
+- **Twitter Bearer Token** (this can be gotten from [Twitter Developer portal](https://developer.x.com/en))
 
 ## Getting Started
 
